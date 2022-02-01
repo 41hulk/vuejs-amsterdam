@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.mob-nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #d3d3d3;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 20px;
+}
+
+.intro {
+  background-color: #d3d3d3;
+  padding: 20px;
+}
+
+.intro-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: centers;
+      -ms-flex-align: centers;
+          align-items: centers;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.intro-content h1 {
+  text-align: center;
+  font-weight: 300;
+  color: #ec5242;
+}
+
+.intro-content .intro-title {
+  text-align: center;
+  color: #ec5242;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.intro-content .intro-desc {
+  text-align: center;
+  width: 100%;
+  color: #000;
+  background: white;
+  border: 1px solid #fff;
+  padding: 10px 0px;
+  margin: 20px 0;
+}
+
+.intro-content .intro-contact {
+  text-align: center;
+  color: #5f5d5d;
+}
+
+.intro-content .intro-contact a {
+  color: #486e05;
+}
+
+.summit-logo .program-title {
+  margin-bottom: 2rem;
+}
+
+.summit-logo .program-title h1 {
+  color: #273a31;
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.summit-logo .program-title .program-line {
+  display: block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20%;
+  border: 1px solid #db3d13;
+  margin: auto;
+}
+
+.summit-logo .logo-desc p {
+  text-align: center;
+  margin: 17px 5em;
+}
+
+.summit-logo .logo-desc .logo {
+  border: 2px solid #e6e6e6;
+  padding: 50px 0;
+  width: 80%;
+  margin: 0 50px;
+}
+
+.summit-logo .logo-desc .logo img {
+  height: 50%;
+  padding: 2em;
+}
+
+.past .past-title {
+  margin-bottom: 2rem;
+}
+
+.past .past-title h1 {
+  color: #273a31;
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.past .past-title .past-line {
+  display: block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20%;
+  border: 1px solid #db3d13;
+  margin: auto;
+}
+
+.past h3 {
+  color: #273a31;
+  font-size: 16px;
+  text-align: center;
+}
+
+.past .past-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 9rem;
+  margin-bottom: 3rem;
+  gap: 2rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.past .past-card .past-container {
+  background: url(../images/event.jpeg);
+  -webkit-filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+          filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+  opacity: 0.6;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  padding: 30px;
+  color: white;
+}
+
+.past .past-card .past-container s h4 {
+  font-weight: bold;
+}
+
+.past .past-card .past-container p {
+  font-weight: bolder;
+}
+
+.partner {
+  background-color: #3b3b3b;
+  padding: 6px 0;
+  color: #fff;
+  text-align: center;
+}
+
+.partner .partner-title {
+  margin-bottom: 1rem;
+}
+
+.partner .partner-title h1 {
+  color: black;
+  text-align: center;
+}
+
+.partner .partner-title .partner-line {
+  display: block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20%;
+  border: 1px solid #db3d13;
+  margin: auto;
+}
+
+.partner .partner-company {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 12px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+}
+/*# sourceMappingURL=about.css.map */
