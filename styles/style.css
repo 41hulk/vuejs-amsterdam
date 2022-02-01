@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+.mob-nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #d3d3d3;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 20px;
+}
+
+.intro {
+  background-color: #d3d3d3;
+  padding: 20px;
+}
+
+.intro-content h1 {
+  font-weight: 300;
+  color: #ec5242;
+}
+
+.intro-content .intro-title {
+  color: #ec5242;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.intro-content .intro-desc {
+  width: 100%;
+  color: #000;
+  background: #e6e6e6;
+  border: 1px solid #fff;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+.intro-content .intro-date {
+  color: #5f5f5f;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.intro-content .intro-location {
+  color: #5f5d5d;
+}
+
+.program {
+  background-image: url("../images/bck2.jpg");
+}
+
+.program .program-title {
+  margin-bottom: 5rem;
+}
+
+.program .program-title h1 {
+  color: white;
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.program .program-title .program-line {
+  display: block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20%;
+  border: 1px solid #db3d13;
+  margin: auto;
+}
+
+.program .program-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.program .program-card .card {
+  width: 85%;
+  display: -ms-grid;
+  display: grid;
+  background-color: rgba(175, 171, 171, 0.3);
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  margin: 10px 0;
+  padding: 5px 10px;
+}
+
+.program .program-card .card span {
+  color: #d3d3d3;
+}
+
+.program .program-card .card-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.program .program-card .card-title i {
+  color: #d3d3d3;
+}
+
+.program .program-card .card-title h2 {
+  font-size: 15px;
+  color: #ec5242;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.program .program-apply {
+  margin-top: 34px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.program .program-apply button {
+  color: #d3d3d3;
+  background: #ec5242;
+  margin-bottom: 34px;
+  padding: 20px;
+  border: #ec5242;
+}
+
+.speaker .speaker-title {
+  margin-bottom: 5rem;
+}
+
+.speaker .speaker-title h1 {
+  color: black;
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.speaker .speaker-title .speaker-line {
+  display: block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20%;
+  border: 1px solid #db3d13;
+  margin: auto;
+}
+
+.speaker .speaker-class {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 50px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.speaker .speaker-card {
+  display: -ms-grid;
+  display: grid;
+}
+
+.speaker .speaker-card .speaker-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  gap: 10px;
+  padding: 20px;
+}
+
+.speaker .speaker-card .speaker-content .speaker-desc h4 {
+  font-size: 20px;
+}
+
+.speaker .speaker-card .speaker-content .speaker-desc h5 {
+  color: #ec5242;
+}
+
+.speaker .speaker-card .speaker-content .speaker-desc hr {
+  margin-right: 20px;
+}
+
+.speaker .speaker-card .speaker-content .speaker-desc p {
+  font-size: 15px;
+}
+
+.partner {
+  background-color: #3b3b3b;
+  padding: 50px 0;
+  color: #fff;
+  text-align: center;
+}
+
+.partner .partner-title {
+  margin-bottom: 2rem;
+}
+
+.partner .partner-title h1 {
+  color: black;
+  text-align: center;
+}
+
+.partner .partner-title .partner-line {
+  display: block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20%;
+  border: 1px solid #db3d13;
+  margin: auto;
+}
+
+.partner .partner-company {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 12px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+}
+/*# sourceMappingURL=style.css.map */
