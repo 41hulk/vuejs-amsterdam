@@ -52,11 +52,10 @@ body {
 
 .intro-content .intro-desc {
   text-align: center;
-  width: 100%;
-  color: #000;
+  color: #5f5d5d;
   background: white;
-  border: 1px solid #fff;
-  padding: 10px 0px;
+  border: 1px solid #cecaca;
+  padding: 40px;
   margin: 20px 0;
 }
 
@@ -213,5 +212,134 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .mob-nav-bar {
+    display: none;
+  }
+  .nav-header {
+    background: #272a31;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 10px;
+    padding-right: 230px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: sans-serif;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .nav-header .nav-icons {
+    margin-right: 30px;
+  }
+  .nav-header .nav-header-list li {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    float: left;
+    margin: 0 10px;
+    list-style: none;
+  }
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-bottom: 1px solid #e3e3e3;
+    -webkit-box-shadow: 1px 1px #dbdbdb;
+            box-shadow: 1px 1px #dbdbdb;
+    font-family: sans-serif;
+  }
+  .header .logo {
+    height: 50px;
+    width: 50px;
+  }
+  .header .nav-header-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header .nav-header-list li {
+    margin: 0 10px;
+    list-style: none;
+  }
+  .header .nav-header-list li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .header .nav-header-list li a:hover {
+    cursor: pointer;
+    color: #ec5242;
+  }
+  .header .nav-header-list li a:hover:active {
+    cursor: pointer;
+    color: #ec5242;
+  }
+  .header .btn-header {
+    color: #ec5242;
+    margin-top: 1rem;
+    background-color: #fff;
+    padding: 5px;
+    border: 5px solid #ec5242;
+  }
+  .intro .intro-content h1 {
+    display: none;
+  }
+  .intro .intro-content .intro-title {
+    font-size: 50px;
+    margin: 50px 22rem;
+  }
+  .intro .intro-content .intro-desc {
+    text-align: center;
+    margin: 10px 15rem;
+  }
+  .summit-logo .logo-desc .logo {
+    width: 40%;
+    height: 20%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin-left: 27em;
+  }
+  .past .past-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .partner .partner-company {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 3em;
+    font-size: 3em;
+  }
 }
 /*# sourceMappingURL=about.css.map */
