@@ -26,9 +26,8 @@ const speaker = [
 ];
 const speakerClass = document.querySelector('#speaker-id');
 
-  for(let i=0; i<=speaker.length; i++){
-    
-  speakerClass.innerHTML +=`
+for (let i = 0; i <= speaker.length; i += 1) {
+  speakerClass.innerHTML += `
     <section class="speaker-card">
                 <div class="speaker-content">
                     <img src='${speaker[i].simage}' width='150' alt="">
@@ -40,13 +39,5 @@ const speakerClass = document.querySelector('#speaker-id');
                     </div>
                 </div>
       </section>
-    `
-    
-  }
-
-
-
-
-  
-  
-
+    `;
+}

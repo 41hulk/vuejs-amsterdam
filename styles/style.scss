@@ -12,6 +12,7 @@ $greyColor: #d3d3d3;
   background-size: cover;
   padding: 20px;
 }
+
 .h-desktop {
   display: none;
 }
@@ -55,17 +56,20 @@ $greyColor: #d3d3d3;
   background-color: $greyColor;
   padding: 20px;
 }
+
 .intro-content {
   h1 {
     font-weight: 300;
     color: $orangeColor;
   }
+
   .intro-title {
     color: $orangeColor;
     font-size: 20px;
     font-family: sans-serif;
     font-weight: bold;
   }
+
   .intro-desc {
     width: 100%;
     color: #000;
@@ -74,24 +78,30 @@ $greyColor: #d3d3d3;
     padding: 10px;
     margin: 20px 0;
   }
+
   .intro-date {
     color: #5f5f5f;
     font-size: 30px;
     font-weight: bold;
   }
+
   .intro-location {
     color: #5f5d5d;
   }
 }
+
 .program {
   background-image: url("../images/bck2.jpg");
+
   .program-title {
     margin-bottom: 5rem;
+
     h1 {
       color: white;
       padding-top: 3rem;
       text-align: center;
     }
+
     .program-line {
       display: block;
       align-items: center;
@@ -100,10 +110,12 @@ $greyColor: #d3d3d3;
       margin: auto;
     }
   }
+
   .program-card {
     display: flex;
     flex-direction: column;
     align-items: center;
+
     .card {
       width: 85%;
       display: grid;
@@ -111,17 +123,21 @@ $greyColor: #d3d3d3;
       grid-template-columns: 50% 50%;
       margin: 10px 0;
       padding: 5px 10px;
+
       span {
         color: $greyColor;
       }
     }
+
     .card-title {
       display: flex;
       justify-content: flex-start;
       align-items: center;
+
       i {
         color: $greyColor;
       }
+
       h2 {
         font-size: 15px;
         color: $orangeColor;
@@ -130,10 +146,12 @@ $greyColor: #d3d3d3;
       }
     }
   }
+
   .program-apply {
     margin-top: 34px;
     display: flex;
     justify-content: center;
+
     button {
       color: $greyColor;
       background: $orangeColor;
@@ -143,14 +161,17 @@ $greyColor: #d3d3d3;
     }
   }
 }
+
 .speaker {
   .speaker-title {
     margin-bottom: 5rem;
+
     h1 {
       color: black;
       padding-top: 3rem;
       text-align: center;
     }
+
     .speaker-line {
       display: block;
       align-items: center;
@@ -159,29 +180,36 @@ $greyColor: #d3d3d3;
       margin: auto;
     }
   }
+
   .speaker-class {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
     align-items: flex-start;
   }
+
   .speaker-card {
     display: grid;
+
     .speaker-content {
       display: flex;
       width: 90%;
       gap: 10px;
       padding: 20px;
+
       .speaker-desc {
         h4 {
           font-size: 20px;
         }
+
         h5 {
           color: #ec5242;
         }
+
         hr {
           margin-right: 20px;
         }
+
         p {
           font-size: 15px;
         }
@@ -189,17 +217,21 @@ $greyColor: #d3d3d3;
     }
   }
 }
+
 .partner {
   background-color: #3b3b3b;
   padding: 50px 0;
   color: #fff;
   text-align: center;
+
   .partner-title {
     margin-bottom: 2rem;
+
     h1 {
       color: black;
       text-align: center;
     }
+
     .partner-line {
       display: block;
       align-items: center;
@@ -208,6 +240,7 @@ $greyColor: #d3d3d3;
       margin: auto;
     }
   }
+
   .partner-company {
     display: flex;
     justify-content: space-evenly;
@@ -221,6 +254,7 @@ $greyColor: #d3d3d3;
   justify-content: center;
   padding: 20px;
 }
+
 .header,
 .nav-header {
   display: none;
@@ -230,6 +264,7 @@ $greyColor: #d3d3d3;
   .mob-nav-bar {
     display: none;
   }
+
   .nav-header {
     background: #272a31;
     color: #fff;
@@ -238,9 +273,11 @@ $greyColor: #d3d3d3;
     padding-right: 230px;
     font-family: sans-serif;
     justify-content: flex-end;
+
     .nav-icons {
       margin-right: 30px;
     }
+
     .nav-header-list li {
       align-content: center;
       float: left;
@@ -248,6 +285,7 @@ $greyColor: #d3d3d3;
       list-style: none;
     }
   }
+
   .header {
     display: flex;
     justify-content: space-evenly;
@@ -255,25 +293,30 @@ $greyColor: #d3d3d3;
     border-bottom: 1px solid #e3e3e3;
     box-shadow: 1px 1px #dbdbdb;
     font-family: sans-serif;
+
     .logo {
       height: 50px;
       width: 50px;
     }
+
     .nav-header-list {
       display: flex;
       justify-content: center;
       align-items: center;
     }
+
     .nav-header-list li {
       margin: 0 10px;
       list-style: none;
     }
+
     .nav-header-list li a {
       color: #000;
       text-decoration: none;
       font-size: 18px;
       font-weight: 500;
     }
+
     .nav-header-list li a:hover {
       cursor: pointer;
       color: #ec5242;
@@ -283,6 +326,7 @@ $greyColor: #d3d3d3;
       cursor: pointer;
       color: #ec5242;
     }
+
     .btn-header {
       color: #ec5242;
       margin-top: 1rem;
@@ -291,28 +335,34 @@ $greyColor: #d3d3d3;
       border: 5px solid #ec5242;
     }
   }
+
   .intro {
     padding: 81px;
+
     .intro-content {
       h1 {
         font-size: 30px;
       }
+
       p {
         font-size: 50px;
         font-family: sans-serif;
         font-weight: bold;
       }
+
       .intro-desc {
         width: 50%;
       }
     }
   }
+
   .program {
     .program-card {
       justify-content: center;
       margin: 50px 70px;
       gap: 2rem;
       flex-direction: row;
+
       .card {
         display: flex;
         flex-direction: column;
@@ -324,12 +374,14 @@ $greyColor: #d3d3d3;
           flex-direction: column;
           font-size: 25px;
         }
+
         span {
           text-align: center;
         }
       }
     }
   }
+
   .speaker {
     .speaker-class {
       display: grid;
