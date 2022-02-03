@@ -1,24 +1,24 @@
 const speaker = [
   {
-    image: './images/pic.png',
+    simage: './images/pic.png',
     sName: 'Ntare G',
     sLocation: 'Rwanda, Kigali',
     sBio: 'A associate Software developer at microverse with  expertise in Full-stack development and DevOps.',
   },
   {
-    image: './images/pic.png',
+    simage: './images/pic.png',
     sName: 'Ntare Guy',
     sLocation: 'Rwanda, Kigali',
     sBio: 'A associate Software developer at microverse with  expertise in Full-stack development and DevOps.',
   },
   {
-    image: './images/pic.png',
+    simage: './images/pic.png',
     sName: 'Ntare Guy',
     sLocation: 'Rwanda, Kigali',
     sBio: 'A associate Software developer at microverse with  expertise in Full-stack development and DevOps.',
   },
   {
-    image: './images/pic.png',
+    simage: './images/pic.png',
     sName: 'Ntare Guy',
     sLocation: 'Rwanda, Kigali',
     sBio: 'A associate Software developer at microverse with  expertise in Full-stack development and DevOps.',
@@ -31,7 +31,7 @@ const speakerClass = document.querySelector('#speaker-id');
   speakerClass.innerHTML +=`
     <section class="speaker-card">
                 <div class="speaker-content">
-                    <img src='${speaker[i].image}' width='150' alt="">
+                    <img src='${speaker[i].simage}' width='150' alt="">
                     <div class="speaker-desc">
                         <h4>${speaker[i].sName}</h4>
                         <h5>${speaker[i].sLocation}</h5>
@@ -41,6 +41,7 @@ const speakerClass = document.querySelector('#speaker-id');
                 </div>
       </section>
     `
+    
   }
 
 

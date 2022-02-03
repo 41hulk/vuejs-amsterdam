@@ -12,6 +12,44 @@ $greyColor: #d3d3d3;
   background-size: cover;
   padding: 20px;
 }
+.h-desktop {
+  display: none;
+}
+
+.menu-visible {
+  display: block;
+  position: fixed;
+  height: 50%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: #e5e5e5;
+}
+
+#close-btn {
+  color: #67798e;
+  position: absolute;
+  right: 38px;
+  top: 30px;
+}
+
+.menu-visible .nav-element {
+  background-color: #fff;
+  padding: 92px 12px;
+  border-bottom: 1px solid #fff;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  min-height: 479px;
+}
+
+.menu-visible ul li {
+  margin-bottom: 40px;
+}
+
+.menu-visible ul li a {
+  text-decoration: none;
+  color: $darkColor;
+}
 
 .intro {
   background-color: $greyColor;
