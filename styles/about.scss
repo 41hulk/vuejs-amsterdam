@@ -127,13 +127,14 @@ body {
       background-repeat: no-repeat;
       background-position: center;
       text-align: center;
-      padding: 30px;
+      padding: 10px;
       color: white;
-      s h4 {
+      h4 {
         font-weight: bold;
       }
       p {
         font-weight: bolder;
+        font-size: 14px;
       }
     }
   }
@@ -169,6 +170,10 @@ body {
   font-size: 12px;
   justify-content: center;
   padding: 20px;
+}
+.header,
+.nav-header {
+  display: none;
 }
 @media only screen and (min-width: 768px) {
   .mob-nav-bar {

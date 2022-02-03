@@ -153,16 +153,17 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
-  padding: 30px;
+  padding: 10px;
   color: white;
 }
 
-.past .past-card .past-container s h4 {
+.past .past-card .past-container h4 {
   font-weight: bold;
 }
 
 .past .past-card .past-container p {
   font-weight: bolder;
+  font-size: 14px;
 }
 
 .partner {
@@ -212,6 +213,11 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 20px;
+}
+
+.header,
+.nav-header {
+  display: none;
 }
 
 @media only screen and (min-width: 768px) {
