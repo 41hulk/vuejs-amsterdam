@@ -5,6 +5,7 @@ $greyColor: #d3d3d3;
 body {
   font-family: "Lato", sans-serif;
 }
+
 .mob-nav-bar {
   display: flex;
   background-color: $greyColor;
@@ -68,16 +69,16 @@ body {
     color: transparent;
     font-family: "COCOGOOSE", sans-serif;
     font-size: calc(1.7rem + 1.5vw);
-    background: linear-gradient(
-      165deg,
-      #fcaf21 20%,
-      #f02800 50%,
-      #f88020 75%,
-      #f76050 99%
-    );
+    background:
+      linear-gradient(
+        165deg,
+        #fcaf21 20%,
+        #f02800 50%,
+        #f88020 75%,
+        #f76050 99%
+      );
     background-size: 100%;
     background-repeat: repeat;
-    background-clip: text;
     -webkit-background-clip: text;
   }
 
@@ -256,6 +257,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+
     .google {
       font-family: "Lato", sans-serif;
       font-size: 26px;
@@ -263,17 +265,20 @@ body {
       -webkit-text-fill-color: transparent;
       -webkit-background-clip: text;
     }
+
     .mozilla {
       font-family: "Lato", sans-serif;
       font-size: 20px;
       color: #a19f9f;
     }
+
     .Naver {
       font-family: "Lato", sans-serif;
       font-size: 20px;
       color: #a19f9f;
       font-weight: bolder;
     }
+
     .microverse {
       font-family: "Lato", sans-serif;
       font-size: 17px;
@@ -290,6 +295,7 @@ body {
   padding: 20px;
   gap: 12px;
   background: black;
+
   .footer-logo {
     img {
       object-fit: cover;
@@ -298,6 +304,7 @@ body {
       max-width: 266px;
     }
   }
+
   .footer-desc {
     display: flex;
     color: white;
@@ -403,6 +410,7 @@ body {
       .intro-desc {
         width: 50%;
       }
+
       .intro-date {
         font-size: 30px;
       }

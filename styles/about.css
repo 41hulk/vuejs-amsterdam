@@ -104,6 +104,37 @@ body {
   color: #486e05;
 }
 
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 12px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+  gap: 12px;
+  background: black;
+}
+
+.footer .footer-logo img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 40px;
+  width: 40px;
+  max-width: 266px;
+}
+
+.footer .footer-desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .summit-logo .program-title {
   margin-bottom: 2rem;
 }
@@ -270,37 +301,6 @@ body {
   font-size: 17px;
   color: #a19f9f;
   font-style: italic !important;
-}
-
-.footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-size: 12px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 20px;
-  gap: 12px;
-  background: black;
-}
-
-.footer .footer-logo img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  height: 40px;
-  width: 40px;
-  max-width: 266px;
-}
-
-.footer .footer-desc {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  color: white;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .header,
