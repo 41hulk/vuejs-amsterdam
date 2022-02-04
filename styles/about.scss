@@ -2,18 +2,16 @@ $darkColor: #273a31;
 $orangeColor: #ec5242;
 $greyColor: #d3d3d3;
 
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
-
 body {
   margin: 0;
   padding: 0;
+
+  font-family: "Lato", sans-serif;
 }
 
 .mob-nav-bar {
   display: flex;
-  // border: 2px dotted red;
   background-color: $greyColor;
-  // background: url(../images/menu-section.PNG);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -79,7 +77,7 @@ body {
     text-align: center;
     color: $orangeColor;
     font-size: 20px;
-    font-family: sans-serif;
+    font-family: "COCOGOOSE", sans-serif;
     font-weight: bold;
   }
 
@@ -97,7 +95,6 @@ body {
     color: #5f5d5d;
 
     a {
-      //   text-decoration: none;
       color: rgb(72, 110, 5);
     }
   }
@@ -179,8 +176,7 @@ body {
 
     .past-container {
       background: url(../images/event.jpeg);
-      filter:
-        grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg)
+      filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg)
         saturate(600%) contrast(0.8);
       opacity: 0.6;
       background-size: cover;
@@ -212,7 +208,7 @@ body {
     margin-bottom: 1rem;
 
     h1 {
-      color: black;
+      color: $greyColor;
       text-align: center;
     }
 
@@ -220,6 +216,7 @@ body {
       display: block;
       align-items: center;
       width: 20%;
+      color: $orangeColor;
       border: 1px solid #db3d13;
       margin: auto;
     }
@@ -229,6 +226,31 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+
+    .google {
+      font-family: "Lato", sans-serif;
+      font-size: 26px;
+      background: -webkit-linear-gradient(#eee, rgb(116, 113, 113));
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+    }
+    .mozilla {
+      font-family: "Lato", sans-serif;
+      font-size: 20px;
+      color: #a19f9f;
+    }
+    .Naver {
+      font-family: "Lato", sans-serif;
+      font-size: 20px;
+      color: #a19f9f;
+      font-weight: bolder;
+    }
+    .microverse {
+      font-family: "Lato", sans-serif;
+      font-size: 17px;
+      color: #a19f9f;
+      font-style: italic !important;
+    }
   }
 }
 
@@ -237,6 +259,21 @@ body {
   font-size: 12px;
   justify-content: center;
   padding: 20px;
+  gap: 12px;
+  background: black;
+  .footer-logo {
+    img {
+      object-fit: cover;
+      height: 40px;
+      width: 40px;
+      max-width: 266px;
+    }
+  }
+  .footer-desc {
+    display: flex;
+    color: white;
+    align-items: center;
+  }
 }
 
 .header,

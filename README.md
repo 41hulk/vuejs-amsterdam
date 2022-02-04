@@ -4,7 +4,7 @@
 
 > made by Ntare Guy
 
-## Visit the page [here](https://41hulk.github.io/micro-portfolio/)
+## Visit the page [here](https://41hulk.github.io/vuejs-amsterdam/)
 
 ![screenshot](./images/page.png)
 
@@ -26,6 +26,10 @@
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
+
+## Acknowledge
+
+- Original design by **Cindy Shin**: [LinkedIn](https://www.linkedin.com/in/adagio07/), [Behance](https://www.behance.net/adagio07)
 
 ## Show your support
 

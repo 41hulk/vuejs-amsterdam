@@ -2,8 +2,9 @@ $darkColor: #273a31;
 $orangeColor: #ec5242;
 $greyColor: #d3d3d3;
 
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
-
+body {
+  font-family: "Lato", sans-serif;
+}
 .mob-nav-bar {
   display: flex;
   background-color: $greyColor;
@@ -64,10 +65,20 @@ $greyColor: #d3d3d3;
   }
 
   .intro-title {
-    color: $orangeColor;
-    font-size: 20px;
-    font-family: sans-serif;
-    font-weight: bold;
+    color: transparent;
+    font-family: "COCOGOOSE", sans-serif;
+    font-size: calc(1.7rem + 1.5vw);
+    background: linear-gradient(
+      165deg,
+      #fcaf21 20%,
+      #f02800 50%,
+      #f88020 75%,
+      #f76050 99%
+    );
+    background-size: 100%;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
   }
 
   .intro-desc {
@@ -81,7 +92,7 @@ $greyColor: #d3d3d3;
 
   .intro-date {
     color: #5f5f5f;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
   }
 
@@ -245,6 +256,30 @@ $greyColor: #d3d3d3;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    .google {
+      font-family: "Lato", sans-serif;
+      font-size: 26px;
+      background: -webkit-linear-gradient(#eee, rgb(116, 113, 113));
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+    }
+    .mozilla {
+      font-family: "Lato", sans-serif;
+      font-size: 20px;
+      color: #a19f9f;
+    }
+    .Naver {
+      font-family: "Lato", sans-serif;
+      font-size: 20px;
+      color: #a19f9f;
+      font-weight: bolder;
+    }
+    .microverse {
+      font-family: "Lato", sans-serif;
+      font-size: 17px;
+      color: #a19f9f;
+      font-style: italic !important;
+    }
   }
 }
 
@@ -253,6 +288,21 @@ $greyColor: #d3d3d3;
   font-size: 12px;
   justify-content: center;
   padding: 20px;
+  gap: 12px;
+  background: black;
+  .footer-logo {
+    img {
+      object-fit: cover;
+      height: 40px;
+      width: 40px;
+      max-width: 266px;
+    }
+  }
+  .footer-desc {
+    display: flex;
+    color: white;
+    align-items: center;
+  }
 }
 
 .header,
@@ -346,12 +396,15 @@ $greyColor: #d3d3d3;
 
       p {
         font-size: 50px;
-        font-family: sans-serif;
+        font-family: "COCOGOOSE", sans-serif;
         font-weight: bold;
       }
 
       .intro-desc {
         width: 50%;
+      }
+      .intro-date {
+        font-size: 30px;
       }
     }
   }
