@@ -1,0 +1,411 @@
+$darkColor: #273a31;
+$orangeColor: #ec5242;
+$greyColor: #d3d3d3;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.mob-nav-bar {
+  display: flex;
+  background-color: $greyColor;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 20px;
+}
+
+.h-desktop {
+  display: none;
+}
+
+.menu-visible {
+  display: block;
+  position: fixed;
+  height: 50%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: #e5e5e5;
+}
+
+#close-btn {
+  color: #67798e;
+  position: absolute;
+  right: 38px;
+  top: 30px;
+}
+
+.menu-visible .nav-element {
+  background-color: #fff;
+  padding: 92px 12px;
+  border-bottom: 1px solid #fff;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  min-height: 479px;
+}
+
+.menu-visible ul li {
+  margin-bottom: 40px;
+}
+
+.menu-visible ul li a {
+  text-decoration: none;
+  color: $darkColor;
+}
+
+.intro {
+  background-color: $greyColor;
+  padding: 20px;
+}
+
+.intro-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  h1 {
+    text-align: center;
+    font-weight: 300;
+    color: $orangeColor;
+  }
+
+  .intro-title {
+    text-align: center;
+    color: $orangeColor;
+    font-size: 20px;
+    font-family: "COCOGOOSE", sans-serif;
+    font-weight: bold;
+  }
+
+  .intro-desc {
+    text-align: center;
+    color: #5f5d5d;
+    background: white;
+    border: 1px solid rgb(206, 202, 202);
+    padding: 40px;
+    margin: 20px 0;
+  }
+
+  .intro-contact {
+    text-align: center;
+    color: #5f5d5d;
+
+    a {
+      color: rgb(72, 110, 5);
+    }
+  }
+}
+
+.footer {
+  display: flex;
+  font-size: 12px;
+  justify-content: center;
+  padding: 20px;
+  gap: 12px;
+  background: black;
+
+  .footer-logo {
+    img {
+      object-fit: cover;
+      height: 40px;
+      width: 40px;
+      max-width: 266px;
+    }
+  }
+
+  .footer-desc {
+    display: flex;
+    color: white;
+    align-items: center;
+  }
+}
+
+.summit-logo {
+  .program-title {
+    margin-bottom: 2rem;
+
+    h2 {
+      color: $darkColor;
+      padding-top: 3rem;
+      text-align: center;
+    }
+
+    .program-line {
+      display: block;
+      align-items: center;
+      width: 20%;
+      border: 1px solid #db3d13;
+      margin: auto;
+    }
+  }
+
+  .logo-desc {
+    p {
+      text-align: center;
+      margin: 17px 5em;
+    }
+
+    .logo {
+      border: 2px solid #e6e6e6;
+      padding: 50px 0;
+      width: 80%;
+      margin: 0 50px;
+
+      img {
+        position: relative;
+        width: 50%;
+        height: 50%;
+        padding: 2em;
+        left: 6em;
+      }
+    }
+  }
+}
+
+.past {
+  .past-title {
+    margin-bottom: 2rem;
+
+    h2 {
+      color: $darkColor;
+      padding-top: 3rem;
+      text-align: center;
+    }
+
+    .past-line {
+      display: block;
+      align-items: center;
+      width: 20%;
+      border: 1px solid #db3d13;
+      margin: auto;
+    }
+  }
+
+  h3 {
+    color: $darkColor;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .past-card {
+    display: flex;
+    padding: 0 9rem;
+    margin-bottom: 3rem;
+    gap: 2rem;
+    flex-direction: column;
+
+    .past-container {
+      background: url(../images/event.jpeg);
+      filter:
+        grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg)
+        saturate(600%) contrast(0.8);
+      opacity: 0.6;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      text-align: center;
+      padding: 10px;
+      color: white;
+
+      h4 {
+        font-weight: bold;
+      }
+
+      p {
+        font-weight: bolder;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+.partner {
+  background-color: #3b3b3b;
+  padding: 6px 0;
+  color: #fff;
+  text-align: center;
+
+  .partner-title {
+    margin-bottom: 1rem;
+
+    h2 {
+      color: $greyColor;
+      text-align: center;
+    }
+
+    .partner-line {
+      display: block;
+      align-items: center;
+      width: 20%;
+      color: $orangeColor;
+      border: 1px solid #db3d13;
+      margin: auto;
+    }
+  }
+
+  .partner-company {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .google {
+      font-family: "Lato", sans-serif;
+      font-size: 26px;
+      background: -webkit-linear-gradient(#eee, rgb(116, 113, 113));
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+    }
+
+    .mozilla {
+      font-family: "Lato", sans-serif;
+      font-size: 20px;
+      color: #a19f9f;
+    }
+
+    .Naver {
+      font-family: "Lato", sans-serif;
+      font-size: 20px;
+      color: #a19f9f;
+      font-weight: bolder;
+    }
+
+    .microverse {
+      font-family: "Lato", sans-serif;
+      font-size: 17px;
+      color: #a19f9f;
+      font-style: italic !important;
+    }
+  }
+}
+
+.header,
+.nav-header {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .mob-nav-bar {
+    display: none;
+  }
+
+  .nav-header {
+    background: #272a31;
+    color: #fff;
+    display: flex;
+    padding-top: 10px;
+    padding-right: 230px;
+    align-items: center;
+    font-family: sans-serif;
+    justify-content: flex-end;
+
+    .nav-icons {
+      margin-right: 30px;
+    }
+
+    .nav-header-list li {
+      align-self: center;
+      float: left;
+      margin: 0 10px;
+      list-style: none;
+    }
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid #e3e3e3;
+    box-shadow: 1px 1px #dbdbdb;
+    font-family: sans-serif;
+
+    .logo {
+      height: 50px;
+      width: 50px;
+    }
+
+    .nav-header-list {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .nav-header-list li {
+      margin: 0 10px;
+      list-style: none;
+    }
+
+    .nav-header-list li a {
+      color: #000;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    .nav-header-list li a:hover {
+      cursor: pointer;
+      color: #ec5242;
+    }
+
+    .nav-header-list li a:hover:active {
+      cursor: pointer;
+      color: #ec5242;
+    }
+
+    .btn-header {
+      color: #ec5242;
+      margin-top: 1rem;
+      background-color: #fff;
+      padding: 5px;
+      border: 5px solid #ec5242;
+    }
+  }
+
+  .intro {
+    .intro-content {
+      h1 {
+        display: none;
+      }
+
+      .intro-title {
+        font-size: 50px;
+        margin: 50px 22rem;
+      }
+
+      .intro-desc {
+        text-align: center;
+        margin: 10px 15rem;
+      }
+    }
+  }
+
+  .summit-logo {
+    .logo-desc {
+      .logo {
+        width: 40%;
+        height: 20%;
+        align-self: center;
+        margin-left: 27em;
+      }
+    }
+  }
+
+  .past {
+    .past-card {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
+
+  .partner {
+    .partner-company {
+      display: flex;
+      justify-content: center;
+      gap: 3em;
+      font-size: 3em;
+    }
+  }
+}

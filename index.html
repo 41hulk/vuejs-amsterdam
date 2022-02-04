@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,600,500,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>VueJs | Amsterdam</title>
+</head>
+<body>
+    <nav class="nav-header">
+        <i class="fa fa-facebook nav-icons" aria-hidden="true"></i>
+        <i class="fa fa-twitter nav-icons" aria-hidden="true"></i>
+        <ul class="nav-header-list">
+                <li>English</li>
+                <li>My Page</li>
+                <li>Logout</li>
+            </ul>
+    </nav>
+    <header class="header">
+        <img src="./images/logs.png" alt="Logo" class="logo">
+        <ul class="nav-header-list">
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./index.html">Program</a></li>
+            <li><a href="./index.html">Join</a></li>
+            <li><a href="./index.html">Sponsor</a></li>
+            <li><a href="./index.html">News</a></li>
+            <li><button class="btn-header">Join us in Amsterdam</button></li>
+        </ul>
+    </header>
+
+    <header class="h-desktop" id='menu'>
+        <i class="fa fa-times fa-2x" id='close-btn' aria-hidden="true"></i>
+        <ul class="nav-element">
+            <li><a class="nav-link" href="./about.html">About</a></li>
+            <li><a class="nav-link" href="#">Program</a></li>
+            <li><a class="nav-link" href="#">News</a></li>
+        </ul>
+    
+    </header>
+      
+    <section class="mob-nav-bar" >
+        <i class="fa fa-bars fa-1x"  id="menu-btn" aria-hidden="true"></i>
+        
+    </section>
+    <main>
+        <!-- intro -->
+    <section class="intro">
+        <div class="intro-content">
+            <h1>"VueJs Amsterdam"</h1>
+            <p class="intro-title">
+                WORLD'S MOST<br>
+                SPECIAL AND<br>
+                LARGEST VUE CONFERENCE
+            </p>
+            <section class="intro-desc">
+                Attend the Vue.js Community Event of the year and celebrate with Vue Communities
+            </section>
+            <p class="intro-date">2022.6.2(MON)~3(TUE)</p>
+            <span class="intro-location">In Amsterdam</span>
+        </div>
+    </section>
+    <!-- Main program -->
+    <section class="program">
+        <div class="program-title">
+            <h2>Main Program</h2>
+            <span class="program-line"></span>
+        </div>
+        <div class="program-card">
+            <div class="card">
+                <section class="card-title">
+                    <i class="fa fa-diamond" aria-hidden="true"></i>
+                    <h2>Card heading</h2>
+                </section>
+                <span>
+                    Apply for our 2022 Metting and Let's meet in Amsterdam
+                </span>
+            </div>
+            <div class="card">
+                <section class="card-title">
+                    <i class="fa fa-diamond" aria-hidden="true"></i>
+                    <h2>Card heading</h2>
+                </section>
+                <span>
+                    Apply for our 2022 Metting and Let's meet in Amsterdam
+                </span>
+            </div>
+            <div class="card">
+                <section class="card-title">
+                    <i class="fa fa-diamond" aria-hidden="true"></i>
+                    <h2>Card heading</h2>
+                </section>
+                <span>
+                    Apply for our 2022 Metting and Let's meet in Amsterdam
+                </span>
+            </div>
+            <div class="card">
+                <section class="card-title">
+                    <i class="fa fa-diamond" aria-hidden="true"></i>
+                    <h2>Card heading</h2>
+                </section>
+                <span>
+                    Apply for our 2022 Metting and Let's meet in Amsterdam
+                </span>
+            </div>
+            <div class="card">
+                <section class="card-title">
+                    <i class="fa fa-diamond" aria-hidden="true"></i>
+                    <h2>Card heading</h2>
+                </section>
+                <span>
+                    Apply for our 2022 Metting and Let's meet in Amsterdam
+                </span>
+            </div>    
+    </div>
+    <div class="program-apply">
+        <button>Join us in Amsterdam</button>
+    </div>
+    </section>
+
+    <section class="speaker">
+        <div class="speaker-title">
+            <h2>Feature Speaker</h2>
+            <span class="speaker-line"></span>
+        </div>
+    
+        <div class="speaker-class" id="speaker-id"></div>
+
+
+    </section>
+    <section class="partner">
+        <div class="partner-title">
+            <h2>Partner</h2>
+            <span class="partner-line"></span>
+        </div>
+        <div class="partner-company">
+            <div class="company">
+                <h5 class="google">GOOGLE</h5>
+            </div>
+            <div class="company">
+                <h5 class="mozilla">mozilla</h5>
+            </div>
+            <div class="company">
+                <h5 class="Naver">NAVER</h5>
+            </div>
+            <div class="company">
+                <h5 class="microverse">microverse</h5>
+            </div>
+        </div>
+    </section>
+   <footer class="footer">
+        <div class="footer-logo">
+            <img src="./images/logo.png" alt="VueLogo">
+        </div>
+        <div class="footer-desc">
+            <span>VueJs Amsterdam 2022, &#169; Copyright Reserved.</span>
+        </div>
+    </footer>
+    </main>
+    <script src="./script/index.js"></script>
+    <script src="./script/menu.js"></script>
+
+</body>
+</html>
