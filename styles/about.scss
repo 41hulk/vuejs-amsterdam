@@ -199,7 +199,8 @@ body {
 
     .past-container {
       background: url(../images/event.jpeg);
-      filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg)
+      filter:
+        grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg)
         saturate(600%) contrast(0.8);
       opacity: 0.6;
       background-size: cover;
