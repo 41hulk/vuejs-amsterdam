@@ -99,7 +99,7 @@ body {
   margin-bottom: 5rem;
 }
 
-.program .program-title h1 {
+.program .program-title h2 {
   color: white;
   padding-top: 3rem;
   text-align: center;
@@ -188,7 +188,7 @@ body {
   margin-bottom: 5rem;
 }
 
-.speaker .speaker-title h1 {
+.speaker .speaker-title h2 {
   color: black;
   padding-top: 3rem;
   text-align: center;
@@ -259,7 +259,7 @@ body {
   margin-bottom: 2rem;
 }
 
-.partner .partner-title h1 {
+.partner .partner-title h2 {
   color: black;
   text-align: center;
 }

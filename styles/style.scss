@@ -69,14 +69,13 @@ body {
     color: transparent;
     font-family: "COCOGOOSE", sans-serif;
     font-size: calc(1.7rem + 1.5vw);
-    background:
-      linear-gradient(
-        165deg,
-        #fcaf21 20%,
-        #f02800 50%,
-        #f88020 75%,
-        #f76050 99%
-      );
+    background: linear-gradient(
+      165deg,
+      #fcaf21 20%,
+      #f02800 50%,
+      #f88020 75%,
+      #f76050 99%
+    );
     background-size: 100%;
     background-repeat: repeat;
     -webkit-background-clip: text;
@@ -108,7 +107,7 @@ body {
   .program-title {
     margin-bottom: 5rem;
 
-    h1 {
+    h2 {
       color: white;
       padding-top: 3rem;
       text-align: center;
@@ -178,7 +177,7 @@ body {
   .speaker-title {
     margin-bottom: 5rem;
 
-    h1 {
+    h2 {
       color: black;
       padding-top: 3rem;
       text-align: center;
@@ -239,7 +238,7 @@ body {
   .partner-title {
     margin-bottom: 2rem;
 
-    h1 {
+    h2 {
       color: black;
       text-align: center;
     }

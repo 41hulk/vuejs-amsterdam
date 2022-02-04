@@ -139,7 +139,7 @@ body {
   margin-bottom: 2rem;
 }
 
-.summit-logo .program-title h1 {
+.summit-logo .program-title h2 {
   color: #273a31;
   padding-top: 3rem;
   text-align: center;
@@ -179,7 +179,7 @@ body {
   margin-bottom: 2rem;
 }
 
-.past .past-title h1 {
+.past .past-title h2 {
   color: #273a31;
   padding-top: 3rem;
   text-align: center;
@@ -247,7 +247,7 @@ body {
   margin-bottom: 1rem;
 }
 
-.partner .partner-title h1 {
+.partner .partner-title h2 {
   color: #d3d3d3;
   text-align: center;
 }
